@@ -19,8 +19,8 @@ module tt_um_example (
   // All output pins must be assigned. If not used, assign to 0.
     assign uo_out = { ui_in[7:4], ~ui_in[3], ~ui_in[2], ~ui_in[1], ~ui_in[0] };
 
-    assign uio_out = 8'b00000000:
-    assign uio_oe = 8'b00000000:
+    assign uio_out = 8'b00000000;
+    assign uio_oe = 8'b00000000;
 
     
   // List all unused inputs to prevent warnings
