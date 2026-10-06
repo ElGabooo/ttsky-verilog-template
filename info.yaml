@@ -25,24 +25,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "  IN0"
-  ui[1]: "IN1"
-  ui[2]: "IN3"
-  ui[3]: "IN4"
-  ui[4]: "IN5"
-  ui[5]: "IN6"
-  ui[6]: "IN7"
-  ui[7]: "IN8"
+  ui[0]: "  R_SENSE"
+  ui[1]: "RATE_SEL"
+  ui[2]: "PACER_EN"
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
-  uo[0]: "OUT0"
-  uo[1]: "OUT1"
-  uo[2]: "OUT2"
-  uo[3]: "OUT3"
-  uo[4]: "OUT4"
-  uo[5]: "OUT5"
-  uo[6]: "OUT6"
-  uo[7]: "OUT7"
+  uo[0]: "PACE_OUT"
+  uo[1]: "SENSE_LED"
+  uo[2]: "REFR_LED"
+  uo[3]: "ALARM_BRADY"
+  uo[4]: "DISP_D0"
+  uo[5]: "DISP_D1"
+  uo[6]: "DISP_D2"
+  uo[7]: "DISP_D3"
 
   # Bidirectional pins
   uio[0]: ""
